@@ -795,12 +795,6 @@ instructLength = len(I)
 steps = 0
 running = True
 
-Tracker = {}
-Other = {}
-for x in range(len(Current)):
-    Tracker[x] = []
-    Other[x] = []
-
 S = {}
 while running:
     running = False
