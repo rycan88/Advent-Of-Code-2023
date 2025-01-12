@@ -1270,7 +1270,6 @@ BadNodes = set()
 BadWires = set()
 iterationTurns = 2
 while len(Current) > 0:
-    print(len(Joint))
     current = Current.pop(0)
     for neighbor in D[current]:
         if neighbor not in Joint and neighbor not in BadNodes:
